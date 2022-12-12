@@ -1,0 +1,12 @@
+/* сброс стилей по умолчанию */
+@import url(../vendor/normalize.css);
+
+/* глобальные стили */
+@import url(../pages/page/page.css);
+
+/* Блок Header */
+@import url(../pages/header/header.css);
+@import url(../pages/header/__logo/header__logo.css);
+@import url(../pages/header/);
+@import url(../pages/header/__lang-links/header__lang-links.css);
+@import url(./header/__lang-link/header__lang-link.css);
