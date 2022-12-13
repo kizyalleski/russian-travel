@@ -26,3 +26,7 @@
 @import url(../pages/intro/__title/intro__title.css);
 @import url(../pages/intro/__text/intro__text.css);
 @import url(../pages/intro/__list/intro__list.css);
+
+/* Блок Photo-grid */
+@import url(../pages/photo-grid/photo-grid.css);
+@import url(../pages/photo-grid/__item/photo-grid__item.css);
