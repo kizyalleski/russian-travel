@@ -20,3 +20,9 @@
 @import url(../pages/lead/__subtitle/lead__subtitle.css);
 @import url(../pages/lead/__image/lead__image.css);
 @import url(../pages/lead/__caption/lead__caption.css);
+
+/* Блок Intro */
+@import url(../pages/intro/intro.css);
+@import url(../pages/intro/__title/intro__title.css);
+@import url(../pages/intro/__text/intro__text.css);
+@import url(../pages/intro/__list/intro__list.css);
