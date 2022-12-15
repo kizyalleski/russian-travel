@@ -1,0 +1,8 @@
+.place__website {
+    width: 456px; /* TO DO */
+    height: 46px; /* TO DO */
+    grid-column: 2;
+    grid-row: 1;
+    align-self: flex-end;
+    padding-bottom: 48px;
+}

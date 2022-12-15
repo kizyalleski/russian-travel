@@ -1,0 +1,21 @@
+.place {
+  width: 75%;
+  display: grid;
+  padding-bottom: 80px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: max-content 26%;
+  column-gap: 40px;
+}
+
+.place:nth-of-type(2) {
+  grid-template-rows: max-content 24%;
+}
+
+.place:nth-of-type(3) {
+  grid-template-rows: max-content 34%;
+}
+
+.place:nth-of-type(4) {
+  grid-template-rows: max-content 21%;
+}
+

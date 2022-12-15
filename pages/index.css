@@ -30,3 +30,16 @@
 /* Блок Photo-grid */
 @import url(../pages/photo-grid/photo-grid.css);
 @import url(../pages/photo-grid/__item/photo-grid__item.css);
+
+/* Блок Places */
+@import url(../pages/places/places.css);
+@import url(../pages/place/place.css);
+@import url(../pages/place/__title/place__title.css);
+@import url(../pages/place/__image/place__image.css);
+@import url(../pages/place/__website/place__website.css);
+@import url(../pages/place/__url-heading/place__url-heading.css);
+@import url(../pages/place/__link/place__link.css);
+@import url(../pages/place/__paragraph/place__paragraph.css);
+@import url(../pages/place/__paragraph/_position/place__paragraph_position_first.css);
+@import url(../pages/place/__paragraph/_position/place__paragraph_position_second.css
+
