@@ -41,5 +41,11 @@
 @import url(../pages/place/__link/place__link.css);
 @import url(../pages/place/__paragraph/place__paragraph.css);
 @import url(../pages/place/__paragraph/_position/place__paragraph_position_first.css);
-@import url(../pages/place/__paragraph/_position/place__paragraph_position_second.css
+@import url(../pages/place/__paragraph/_position/place__paragraph_position_second.css);
 
+/* Блок Cover */
+@import url(../pages/cover/cover.css);
+@import url(../pages/cover/__title/cover__title.css);
+@import url(../pages/cover/__subtitle/cover__subtitle.css);
+@import url(../pages/cover/__overlay/cover__overlay.css);
+@import url(../pages/cover/__background/cover__background.css);

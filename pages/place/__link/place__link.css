@@ -8,3 +8,7 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
+.place__title:nth-of-type(3) {
+  padding-bottom: 46px;
+}
