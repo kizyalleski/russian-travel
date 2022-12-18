@@ -1,7 +1,7 @@
 .place {
   width: 75%;
   display: grid;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: max-content 25.5% 1fr;
   column-gap: 40px;
@@ -9,18 +9,19 @@
 
 .place:nth-of-type(2) {
   grid-template-rows: max-content 24% 1fr;
-  padding-bottom: 78px;
+  margin-bottom: 78px;
 }
 
 .place:nth-of-type(3) {
-  grid-template-rows: max-content 34%;
+  grid-template-rows: max-content 34% 1fr;
+  margin-bottom: 81px;
 }
 
 .place:nth-of-type(4) {
-  grid-template-rows: max-content 21%;
+  grid-template-rows: max-content 21% 1fr;
 }
 
 .place:nth-of-type(5) {
-  padding-bottom: 90px;
+  margin-bottom: 93px;
 }
 

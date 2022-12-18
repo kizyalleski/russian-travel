@@ -1,6 +1,6 @@
 .place__image {
-    width: 460px; /* TO DO */
-    height: 460px; /* TO DO */
+    /* width: 460px; TO DO */
+    min-width: 460px;
     grid-column: 1;
     grid-row: 2/4;
 }

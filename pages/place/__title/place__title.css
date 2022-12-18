@@ -1,11 +1,10 @@
 .place__title {
     margin: 0;
-    /* margin-bottom: 48px; */
-    padding-bottom: 49px;
+    margin-bottom: 48px;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    width: 460px; /* TO DO */
+    /* width: 460px; TO DO */
     grid-column: 1;
     grid-row: 1;
 }

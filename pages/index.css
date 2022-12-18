@@ -5,6 +5,7 @@
 @import url(../vendor/normalize.css);
 
 /* глобальные стили */
+@import url(../pages/root/root.css);
 @import url(../pages/page/page.css);
 
 /* Блок Header */
@@ -45,7 +46,14 @@
 
 /* Блок Cover */
 @import url(../pages/cover/cover.css);
+@import url(../pages/cover/__link/cover__link.css);
 @import url(../pages/cover/__title/cover__title.css);
 @import url(../pages/cover/__subtitle/cover__subtitle.css);
 @import url(../pages/cover/__overlay/cover__overlay.css);
 @import url(../pages/cover/__background/cover__background.css);
+
+/* Блок Footer */
+@import url(../pages/footer/footer.css);
+@import url(../pages/footer/__link/footer__link.css);
+@import url(../pages/footer/__copyright/footer__copyright.css);
+

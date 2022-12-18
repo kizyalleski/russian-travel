@@ -1,10 +1,6 @@
 .header {
     width: calc(100% - 96px);
-    padding-top: 28px;
-    padding-left: 48px;
-    padding-right: 48px;
-    padding-bottom: 56px;
-    background-color: #2A2C2F;
+    margin: 28px auto 56px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;

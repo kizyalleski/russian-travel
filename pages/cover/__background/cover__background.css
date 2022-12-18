@@ -1,3 +1,9 @@
-.cover__background {
+/* .cover__background {
+  width: 1184px;
+  min-height: 740px;
   background-image: url(../../../images/cover__background.jpg);
-}
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */

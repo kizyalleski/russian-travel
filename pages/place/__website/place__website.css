@@ -1,8 +1,7 @@
 .place__website {
-    width: 456px; /* TO DO */
-    height: 46px; /* TO DO */
+    width: max-content;
     grid-column: 2;
     grid-row: 1;
     align-self: flex-end;
-    padding-bottom: 46px;
+    margin-bottom: 46px;
 }
