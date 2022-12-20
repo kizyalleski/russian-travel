@@ -2,6 +2,10 @@
   max-width: 1184px;
   margin: 0 auto;
   position: relative;
-  /* height: 18px;
-  /* padding-top: 90px; */
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 928px;
+  }
 }

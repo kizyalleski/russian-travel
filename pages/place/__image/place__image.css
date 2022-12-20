@@ -1,6 +1,14 @@
 .place__image {
-    /* width: 460px; TO DO */
     min-width: 460px;
     grid-column: 1;
     grid-row: 2/4;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px; /* TO DO */
+    height: 440px; /* TO DO */
+    object-fit: contain;
+    margin-left: -10px;
+  }
 }

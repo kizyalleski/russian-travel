@@ -25,3 +25,19 @@
   margin-bottom: 93px;
 }
 
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 456px; /* TO DO */
+    grid-template-rows: max-content 31.5% 1fr;
+    column-gap: 32px;
+  }
+  .place:nth-of-type(2) {
+    grid-template-rows: max-content 25% 1fr;
+  }
+  .place:nth-of-type(3) {
+    grid-template-rows: max-content 41% 1fr;
+  }
+  .place:nth-of-type(4) {
+    grid-template-rows: max-content 22.5% 1fr;
+  }
+}
