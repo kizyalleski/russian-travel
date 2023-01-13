@@ -1,0 +1,34 @@
+.place__image {
+    min-width: 460px;
+    grid-column: 1;
+    grid-row: 2/4;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px; /* TO DO */
+    height: 440px; /* TO DO */
+    object-fit: contain;
+    margin-left: -10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    max-width: 340px; /* TO DO */
+    height: 340px; /* TO DO */
+    object-fit: contain;
+    margin-left: -60px;
+    margin-top: -3px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    max-width: 320px; /* TO DO */
+    height: 320px; /* TO DO */
+    object-fit: contain;
+    margin-left: -60px;
+    margin-top: -3px;
+  }
+}
