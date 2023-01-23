@@ -1,7 +1,15 @@
 .header__lang-links{
   list-style: none;
   margin: 0;
-  padding: 0 0 4px;
   display: flex;
   gap: 18px;
+  padding: 0;
+  align-self: flex-end;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 320px) {
+  .header__lang-links {
+    margin-bottom: 7px;
+  }
 }
