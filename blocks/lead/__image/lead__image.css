@@ -1,11 +1,16 @@
 .lead__image {
+  width: 100%;
+  margin-top: 64px;
+}
+
+/* .lead__image {
     width: calc(100% - 296px);
     margin: 0 auto;
     display: flex;
     justify-content: center;
-}
+} */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .lead__image {
     width: calc(100% - 96px);
   }
@@ -21,4 +26,4 @@
   .lead__image {
     width: 100%;
   }
-}
+} */
