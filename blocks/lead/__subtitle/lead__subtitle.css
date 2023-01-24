@@ -6,6 +6,20 @@
   margin: 32px 200px 0;
 }
 
+@media (max-width: 768px) {
+  .lead__subtitle {
+    margin: 32px 100px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__subtitle {
+    margin: 16px 20px 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
 /* .lead__subtitle {
     margin: 0 auto 64px;
     font-weight: 400;

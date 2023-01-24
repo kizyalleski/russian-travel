@@ -3,6 +3,24 @@
   max-width: 984px;
 }
 
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead {
+    max-width: 320px;
+  }
+} */
+
 /* .lead {
   margin-bottom: 92px;
 } */
