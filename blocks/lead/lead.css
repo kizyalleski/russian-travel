@@ -9,7 +9,7 @@
   }
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .lead {
     max-width: 768px;
   }
@@ -19,7 +19,7 @@
   .lead {
     max-width: 320px;
   }
-} */
+}
 
 /* .lead {
   margin-bottom: 92px;
