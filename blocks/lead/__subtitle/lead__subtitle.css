@@ -3,7 +3,13 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  margin: 32px 140px 0;
+  margin: 32px 170px 0;
+}
+
+@media (max-width: 900px) {
+  .lead__subtitle {
+    margin: 32px 120px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -22,7 +28,7 @@
 
 @media (max-width: 500px) {
   .lead__subtitle {
-    margin: 16px 15px 0;
+    margin: 16px 10px 0;
     font-size: 18px;
     line-height: 25px;
   }

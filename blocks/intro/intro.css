@@ -1,11 +1,17 @@
 .intro {
+  max-width: 690px;
+  margin-top: 92px;
+  margin-left: 148px;
+}
+
+/* .intro {
     width: calc(100% - 590px);
     min-height: 429px;
     margin-left: 148px;
     margin-bottom: 92px;
-}
+} */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .intro {
     width: calc(100% - 334px);
     margin-left: 48px;
@@ -26,4 +32,4 @@
     width: calc(100% - 32px);
     margin: 0 auto 64px;
   }
-}
+} */
