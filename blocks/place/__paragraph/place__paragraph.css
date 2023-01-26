@@ -5,24 +5,8 @@
   margin: 0;
 }
 
-/* .place__paragraph {
-    margin: 0;
-    min-width: 484px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-} */
-
-/* @media screen and (max-width: 1024px) {
+@media (max-width: 768px) {
   .place__paragraph {
-    min-width: 456px;
+    font-size: 16px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    min-width: 352px;
-    font-size: 16px;
-    margin-top: -3px;
-  }
-} */

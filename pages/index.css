@@ -40,9 +40,8 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__paragraph/_position/place__paragraph_position_first.css);
-@import url(../blocks/place/__paragraph/_position/place__paragraph_position_second.css);
 
 /* Блок Cover */
 @import url(../blocks/cover/cover.css);
