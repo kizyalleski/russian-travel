@@ -42,12 +42,3 @@
     padding-right: 16px;
   }
 }
-
-/* @media screen and (max-width: 320px) {
-  .photo-grid {
-    width: calc(100% - 32px);
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
-    gap: 12px;
-  }
-}  */

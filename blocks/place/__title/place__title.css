@@ -1,4 +1,11 @@
 .place__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+}
+
+/* .place__title {
     margin: 0;
     margin-bottom: 48px;
     font-weight: 900;
@@ -6,13 +13,13 @@
     line-height: 76px;
     grid-column: 1;
     grid-row: 1;
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    width: 330px; /* TO DO */
+    width: 330px;
   }
 }
 
@@ -23,4 +30,4 @@
     margin-left: 16px;
     margin-bottom: 32px;
   }
-}
+} */

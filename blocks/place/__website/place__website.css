@@ -1,12 +1,12 @@
-.place__website {
+/* .place__website {
     width: max-content;
     grid-column: 2;
     grid-row: 1;
     align-self: flex-end;
     margin-bottom: 46px;
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .place__website {
     margin-bottom: 50px;
   }
@@ -18,4 +18,4 @@
     margin-left: 16px;
     margin-bottom: 32px;
   }
-}
+} */
