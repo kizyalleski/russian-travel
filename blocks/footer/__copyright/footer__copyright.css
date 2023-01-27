@@ -1,4 +1,12 @@
 .footer__copyright {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+}
+
+/* .footer__copyright {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -7,4 +15,4 @@
   display: inline;
   position: absolute;
   right: 0;
-}
+} */
