@@ -7,6 +7,24 @@
   position: relative;
 }
 
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+  }
+}
+
 /* .cover:hover::after {
   content: '';
   position: absolute;
