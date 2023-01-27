@@ -19,7 +19,8 @@
 
 @media (max-width: 768px) {
   .place {
-    grid-template-columns: fit-content(340px) 1fr;
+    /* grid-template-columns: fit-content(340px) 1fr; */
+    grid-template-columns: 47% 1fr;
     column-gap: 28px;
     row-gap: 45px;
     margin-bottom: 73px;

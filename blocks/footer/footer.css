@@ -18,6 +18,16 @@
   }
 }
 
+@media (max-width: 700px) {
+  .footer {
+    max-width: 720px;
+    margin-top: 88px;
+    flex-direction: column;
+    gap: 48px;
+    padding-left: 50px;
+  }
+}
+
 @media (max-width: 320px) {
   .footer {
     max-width: 220px;;
@@ -27,21 +37,3 @@
     margin-left: 16px;
   }
 }
-
-/* .footer {
-  width: calc(100% - 96px);
-  margin: 0 auto;
-  position: relative;
-} */
-
-/* @media screen and (max-width: 1024px) {
-  .footer {
-    width: calc(100% - 96px);
-  }
-} */
-
-/* @media screen and (max-width: 768px) {
-  .footer {
-    width: calc(100% - 48px);
-  }
-} */

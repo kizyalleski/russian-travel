@@ -3,5 +3,24 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
-  color: #FFFFFF;
+  color: #ffffff;
+  transition: opacity 0.25 linear;
+}
+
+.place__link:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 500px) {
+  .place__link {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .place__link {
+    font-size: 9px;
+    line-height: 12px;
+  }
 }
