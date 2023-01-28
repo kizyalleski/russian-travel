@@ -5,6 +5,7 @@
   line-height: 18px;
   color: #ffffff;
   transition: opacity 0.25 linear;
+  word-break: break-all;
 }
 
 .footer__link:hover {

@@ -15,7 +15,7 @@
 * CSS, CSS3
 * FLEXBOX, GRID
 * Отзывчивая верстка
-* БЭМ
+* БЭМ (Nested)
 
 **Макет в Figma**
 
