@@ -1,7 +1,7 @@
 .cover {
   max-width: 1184px;
   margin: 92px auto 0;
-  background: url(../../images/cover__background.jpg);
+  background: url(../../images/cover__background_1280.png);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -10,60 +10,22 @@
 @media (max-width: 1024px) {
   .cover {
     max-width: 1024px;
+    background: url(../../images/cover__background_1024.png);
   }
 }
 
 @media (max-width: 768px) {
   .cover {
     max-width: 768px;
+    background: url(../../images/cover__background_768.png);
+    margin-top: 90px;
   }
 }
 
 @media (max-width: 320px) {
   .cover {
     max-width: 320px;
+    background: url(../../images/cover__background_320.png);
+    margin-top: 92px;
   }
 }
-
-/* .cover:hover::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #2a2c2f;
-  opacity: 0.3;
-  width: 100%;
-  height: 100%;
-} */
-
-/* .cover {
-  width: calc(100% - 96px);
-  min-height: 740px;
-  background-image: url(../../../images/cover__background.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 0 auto 91px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  opacity: 0.8;
-} */
-
-/* .cover:hover {
-  opacity: 0.3;
-} */
-
-/* @media screen and (max-width: 1024px) {
-  .cover {
-    width: 100%;
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    width: 100%;
-    margin-bottom: 88px;
-    min-height: 480px;
-  }
-} */

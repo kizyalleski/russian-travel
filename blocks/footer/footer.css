@@ -24,7 +24,7 @@
     margin-top: 88px;
     flex-direction: column;
     gap: 48px;
-    padding-left: 50px;
+    margin-left: 16px;
   }
 }
 
@@ -35,5 +35,6 @@
     flex-direction: column;
     gap: 48px;
     margin-left: 16px;
+    padding: 0;
   }
 }
