@@ -13,25 +13,10 @@
   }
 }
 
-@media (max-width: 520px) {
-  .place__title {
-    font-size: 20px;
-    line-height: 25px;
-    padding-right: 10px;
-  }
-}
-
 @media (max-width: 320px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
     padding-left: 16px;
-  }
-}
-
-@media (max-width: 300px) {
-  .place__title {
-    font-size: 20px;
-    line-height: 25px;
   }
 }
