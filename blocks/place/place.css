@@ -1,7 +1,6 @@
 .place {
   display: grid;
   grid-template-columns: fit-content(460px) 1fr;
-  /* grid-template-rows: minmax(min-content, max-content); */
   grid-template-rows: repeat(2, minmax(min-content, max-content));
   row-gap: 48px;
   column-gap: 40px;
@@ -26,20 +25,12 @@
     row-gap: 46px;
     margin-bottom: 71px;
   }
-
-  .place:nth-of-type(3), .place:nth-of-type(4) {
-    margin-bottom: 74px;
-  }
 }
 
 @media (max-width: 320px) {
   .place {
     grid-template-columns: fit-content(320px);
     row-gap: 32px;
-    margin-bottom: 48px;
-  }
-
-  .place:nth-of-type(3), .place:nth-of-type(4) {
     margin-bottom: 47px;
   }
 }
