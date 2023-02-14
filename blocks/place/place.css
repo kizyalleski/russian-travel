@@ -18,30 +18,24 @@
   }
 }
 
-@media (max-width: 850px) {
-  .place {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (max-width: 768px) {
   .place {
-    grid-template-columns: fit-content(340px) 1fr;
+    grid-template-columns: fit-content(280px) 1fr;
     column-gap: 28px;
     row-gap: 46px;
     margin-bottom: 71px;
   }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 700px) {
   .place {
-    grid-template-columns: 1fr;
+    grid-template-columns: fit-content(200px) 1fr;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .place {
-    grid-template-columns: fit-content(320px);
+    grid-template-columns: 1fr;
     row-gap: 32px;
     margin-bottom: 47px;
   }

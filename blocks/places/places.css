@@ -1,13 +1,13 @@
 .places {
-  max-width: 984px;
+  width: 100%;
   margin-top: 92px;
-  padding-left: 148px;
-  padding-right: 148px;
+  padding-left: 64px;
+  padding-right: 64px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
   .places {
-    max-width: 928px;
     padding-left: 48px;
     padding-right: 48px;
   }
@@ -15,18 +15,13 @@
 
 @media (max-width: 768px) {
   .places {
-    max-width: 720px;
     padding-left: 24px;
     padding-right: 24px;
-    /* display: flex;
-    flex-direction: column;
-    gap: 45px; */
   }
 }
 
 @media (max-width: 320px) {
   .places {
-    max-width: 320px;
     margin-top: 64px;
     padding: 0;
   }

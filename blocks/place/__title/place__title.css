@@ -5,11 +5,11 @@
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    padding-right: 10px;
+    max-width: 280px;
   }
 }
 
